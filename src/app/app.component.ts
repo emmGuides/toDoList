@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-crash-todolist';
+  name:string = 'Emman';
+
+  constructor(){
+    this.changeName("Emmanuel");
+  }
+
+  changeName(name:string):void{
+    this.name = name;
+  }
 }
