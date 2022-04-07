@@ -1,3 +1,4 @@
+
 .del {
     background: #a03939;
     color: #f4f4f4;
@@ -9,7 +10,7 @@
   }
   
   .todo {
-    background: #f4f4f4;
+    background: #e9e9e9;
     padding: 10px;
     border-bottom: 1px #ccc dotted;
   }
